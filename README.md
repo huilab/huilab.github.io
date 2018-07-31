@@ -3,8 +3,8 @@ Collaborate with the Hui Lab at UC Irvine
 
 ## Open Source Projects
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-    - {{ repository.description }}
+  * [{{ repository.name }}]({{ repository.html_url }}){{ repository.description }}
+    - {{ repository.pages_hostname }}
 {% endfor %}
 
 ## Our Lab

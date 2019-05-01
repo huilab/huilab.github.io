@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.view {
+  visibility: hidden;
+}
+.view:after {
+  content:'View our GitHub profile'; 
+  visibility: visible;
+}

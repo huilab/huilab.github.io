@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 title: The GitHub page for the Hui research group at UC Irvine
 description: Collaborate with the Hui Lab at UC Irvine
 logo: huilab_logo_notext.png
-show_downloads: "false"
+show_downloads: false
